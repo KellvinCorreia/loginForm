@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <title>LoginForm</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <a href="#"><img src="./assets/logo.svg" alt="Logo do camp.in" /></a>
+      </header>
+      <form action="" id="loginForm">
+        <label for="loginForm" class="loginLabel"
+          ><img
+            src="./assets/log-in.svg"
+            alt="Simbolo para login com seta para direita"
+          />
+          <p class="colorLabel">Faça seu login</p>
+        </label>
+        <p class="paragraph">Entre com suas informações de cadastro</p>
+        <label class="labelForm" for="emailForm">E-mail</label>
+        <input
+          type="email"
+          name="emailForm"
+          id="emailForm"
+          placeholder="Digite seu e-mail"
+        />
+        <label class="labelForm" for="passForm">Senha</label>
+        <input
+          type="password"
+          name="passForm"
+          id="passForm"
+          placeholder="Digite sua senha"
+        />
+        <label class="remember" for="chkbox">
+          <input type="checkbox" name="chkbox" id="chkbox" />Lembre-me
+          <a class="forgotPass" href="#">Esqueci minha senha</a>
+        </label>
+        <button type="submit">Entrar</button>
+        <a class="createAcount" href="#"
+          >Não tem uma conta? <strong>Registre-se</strong></a
+        >
+      </form>
+    </main>
+    <div class="campDiv"></div>
+  </body>
+</html>
